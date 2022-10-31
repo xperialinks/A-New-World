@@ -1,0 +1,464 @@
+focus_tree = {
+	id = aztec-tree
+	continuous_focus_position = { x = 150 y = 1960 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AZT
+		}
+	}
+	#Internal Affairs
+	focus = {
+		id = AZT_internal_affairs
+		icon = GFX_focus_generic_self_management
+		x = 12
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Empower the Emperor
+	focus = {
+		id = AZT_empower_the_emperor
+		icon = GFX_focus_hun_elect_a_king
+		x = 9
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_internal_affairs  }
+		mutually_exclusive = { focus = AZT_conspire_against_the_emperor  }
+	}
+
+	#Empower the People
+	focus = {
+		id = AZT_empower_the_people
+		icon = GFX_AZT_empower_the_people-427
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Empower the Nationalists
+	focus = {
+		id = AZT_empower_the_nationalists
+		icon = GFX_AZT_empower_the_nationalists-428
+		x = 14
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Empower the Communists
+	focus = {
+		id = AZT_empower_the_communists
+		icon = GFX_AZT_empower_the_communists-426
+		x = 14
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Conspire against the Emperor
+	focus = {
+		id = AZT_conspire_against_the_emperor
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 15
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_internal_affairs  }
+		mutually_exclusive = { focus = AZT_empower_the_emperor  }
+	}
+
+	#Crush the radicals
+	focus = {
+		id = AZT_crush_the_radicals
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_empower_the_emperor  }
+		mutually_exclusive = { focus = AZT_ally_with_the_conservatives  }
+	}
+
+	#Ally with the conservatives
+	focus = {
+		id = AZT_ally_with_the_conservatives
+		icon = GFX_goal_generic_major_alliance
+		x = 10
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_empower_the_emperor  }
+		mutually_exclusive = { focus = AZT_crush_the_radicals  }
+	}
+
+	#Familial Power
+	focus = {
+		id = AZT_familial_power
+		icon = GFX_focus_eng_god_save_the_king
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_crush_the_radicals  focus = AZT_ally_with_the_conservatives  }
+		mutually_exclusive = { focus = AZT_skilful_workers  }
+	}
+
+	#Skilful Workers
+	focus = {
+		id = AZT_skilful_workers
+		icon = GFX_goal_generic_scientific_exchange
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_crush_the_radicals  focus = AZT_ally_with_the_conservatives  }
+		mutually_exclusive = { focus = AZT_familial_power  }
+	}
+
+	#Army of God
+	focus = {
+		id = AZT_army_of_god
+		icon = GFX_AZT_army_of_god-262125
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_familial_power  focus = AZT_skilful_workers  }
+		mutually_exclusive = { focus = AZT_working_for_god  }
+	}
+
+	#Working for God
+	focus = {
+		id = AZT_working_for_god
+		icon = GFX_focus_generic_industry_1
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_familial_power  focus = AZT_skilful_workers  }
+		mutually_exclusive = { focus = AZT_army_of_god  }
+	}
+
+	#Face the Protests
+	focus = {
+		id = AZT_face_the_protests
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 9
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_army_of_god  focus = AZT_working_for_god  }
+	}
+
+	#Crush the Protests
+	focus = {
+		id = AZT_crush_the_protests
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 7
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_face_the_protests  }
+		mutually_exclusive = { focus = AZT_liberal_reforms  }
+	}
+
+	#Liberal Reforms
+	focus = {
+		id = AZT_liberal_reforms
+		icon = GFX_AZT_liberal_reforms-262055
+		x = 11
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_face_the_protests  }
+		mutually_exclusive = { focus = AZT_crush_the_protests  }
+	}
+
+	#Destroy their Garrisons
+	focus = {
+		id = AZT_destroy_their_garrisons
+		icon = GFX_focus_focus_fra_maquis
+		x = 7
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_crush_the_protests  }
+	}
+
+	#Our own designs
+	focus = {
+		id = AZT_our_own_designs
+		icon = GFX_focus_generic_tank_production
+		x = 6
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AZT_occupy_maya  focus = AZT_enlistfreemayashelp  }
+		mutually_exclusive = { focus = AZT_reach_out_for_help  }
+	}
+
+	#Reach out for Help
+	focus = {
+		id = AZT_reach_out_for_help
+		icon = GFX_focus_generic_concessions
+		x = 8
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AZT_occupy_maya  focus = AZT_enlistfreemayashelp  }
+		mutually_exclusive = { focus = AZT_our_own_designs  }
+	}
+
+	#Crush the Democrats
+	focus = {
+		id = AZT_crush_the_democrats
+		icon = GFX_goal_generic_attack_allies
+		x = 6
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_reach_out_for_help  focus = AZT_our_own_designs  }
+		mutually_exclusive = { focus = AZT_defend_our_lands  }
+	}
+
+	#Defend our Lands
+	focus = {
+		id = AZT_defend_our_lands
+		icon = GFX_goal_generic_defence
+		x = 8
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = AZT_reach_out_for_help  focus = AZT_our_own_designs  }
+		mutually_exclusive = { focus = AZT_crush_the_democrats  }
+	}
+
+	#Glory for Huītzilōpōchtli!
+	focus = {
+		id = AZT_gloryforhuitzilopochtli
+		icon = GFX_focus_generic_monarchy_2
+		x = 7
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = AZT_crush_the_democrats  focus = AZT_defend_our_lands  }
+	}
+
+	#Rebuild the Empire
+	focus = {
+		id = AZT_rebuild_the_empire
+		icon = GFX_goal_continuous_repairments
+		x = 7
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = AZT_gloryforhuitzilopochtli  }
+	}
+
+	#Look Inwards
+	focus = {
+		id = AZT_look_inwards
+		icon = GFX_focus_generic_industry_2
+		x = 5
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = AZT_rebuild_the_empire  }
+	}
+
+	#Look Outwards
+	focus = {
+		id = AZT_look_outwards
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 9
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_rebuild_the_empire  }
+	}
+
+	#Occupy Maya
+	focus = {
+		id = AZT_occupy_maya
+		icon = GFX_AZT_occupy_maya-262024
+		x = 6
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_destroy_their_garrisons  }
+		mutually_exclusive = { focus = AZT_enlistfreemayashelp  }
+	}
+
+	#Enlist Free Maya's Help
+	focus = {
+		id = AZT_enlistfreemayashelp
+		icon = GFX_goal_generic_improve_relations
+		x = 8
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AZT_destroy_their_garrisons  }
+		mutually_exclusive = { focus = AZT_occupy_maya  }
+	}
+
+	#Integrate Maya
+	focus = {
+		id = AZT_integrate_maya
+		icon = GFX_goal_generic_dangerous_deal
+		x = 8
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_look_outwards  }
+	}
+
+	#Unify Maya
+	focus = {
+		id = AZT_unify_maya
+		icon = GFX_focus_RAJ_indian_gurkhas
+		x = 8
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_purchase_taino_maya  }
+	}
+
+	#Integrate Navajo
+	focus = {
+		id = AZT_integrate_navajo
+		icon = GFX_goal_generic_small_arms
+		x = 10
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_annex_westland  }
+	}
+
+	#Occupy our Northern Lands
+	focus = {
+		id = AZT_occupy_our_northern_lands
+		icon = GFX_focus_generic_monarchy_1
+		x = 10
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_integrate_navajo  }
+	}
+
+	#Annex Westland
+	focus = {
+		id = AZT_annex_westland
+		icon = GFX_focus_generic_treaty
+		x = 10
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_look_outwards  }
+	}
+
+	#Purchase Taino Maya
+	focus = {
+		id = AZT_purchase_taino_maya
+		icon = GFX_focus_mex_privatisation
+		x = 8
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_integrate_maya  }
+	}
+
+	#Reunited Empire
+	focus = {
+		id = AZT_reunited_empire
+		icon = GFX_AZT_reunited_empire-231
+		x = 9
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AZT_unify_maya  } prerequisite = { focus = AZT_occupy_our_northern_lands  }
+	}
+
+	#Conquer the Islanders
+	focus = {
+		id = AZT_conquer_the_islanders
+		icon = GFX_focus_chi_flying_tigers
+		x = 8
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = AZT_reunited_empire  }
+	}
+
+}

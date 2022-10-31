@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Necalli Eztli
+necalli_eztli = {
+	name = necalli_eztli
+	portraits = {
+		civilian = {
+			#Custom image for Necalli Eztli
+			large = "/gfx/leaders/AZT/NovqRWfI-10317.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Xiuhcoatl Cualli
+xiuhcoatl_cualli = {
+	name = xiuhcoatl_cualli
+	portraits = {
+		civilian = {
+			#Custom image for Xiuhcoatl Cualli
+			large = "/gfx/leaders/AZT/pMYBvAth-10168.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - The Aztec Congress
+the_aztec_congress = {
+	name = the_aztec_congress
+	portraits = {
+		civilian = {
+			#Custom image for The Aztec Congress
+			large = "/gfx/leaders/AZT/fCrUlKLJ-10211.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Montezuma VIII
+montezuma_viii = {
+	name = montezuma_viii
+	portraits = {
+		civilian = {
+			#Custom image for Montezuma VIII
+			large = "/gfx/leaders/AZT/LURbnNPt-10208.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: A New World
+	SpriteType = { 
+		name = "a_new_world-1"
+		texturefile = "gfx/interface/bookmarks/a_new_world-bookmark/a_new_world-1.dds"
+	}
+

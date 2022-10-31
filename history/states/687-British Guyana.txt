@@ -1,0 +1,29 @@
+state = {
+	id = 687
+	name = "STATE_687"
+	manpower = 309000
+	state_category = pastoral
+	resources = {
+		aluminium = 64
+	}
+	history = {
+		add_core_of = GYA
+		add_core_of = ARA
+		owner = ARA
+		victory_points = {
+			4982 1
+		}
+		buildings = {
+			infrastructure = 1
+			4982 = {
+				naval_base = 1
+			}
+		}
+		controller = ARA
+	}
+	provinces = {
+		4982 8107 12716 
+	}
+	local_supplies = 5.0
+
+}

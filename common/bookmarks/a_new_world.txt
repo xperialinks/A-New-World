@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "a_new_world_name"
+		desc = "a_new_world_desc"
+		date = 1936.1.1.12
+	picture = "a_new_world-1"
+		default_country = "GER"
+		default = yes
+		"AZT" = {
+			history = "a_new_world_AZT"
+			ideology = neutrality
+		}
+		"MAY" = {
+			history = "a_new_world_MAY"
+			ideology = fascism
+		}
+		"AMY" = {
+			history = "a_new_world_AMY"
+			ideology = neutrality
+		}
+	}
+}

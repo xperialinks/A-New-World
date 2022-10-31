@@ -1,0 +1,50 @@
+﻿oob = "AZT_1936"
+capital = 1
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+create_faction = "Tenochtitlan Pact"
+
+add_to_faction = AMY
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+set_autonomy = {
+	target = AMY
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = NAJ
+	autonomous_state = autonomy_puppet
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = ""
+	election_frequency = 
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 10
+	communism = 20
+	neutrality = 50
+}
+
+recruit_character = montezuma_viii
+recruit_character = the_aztec_congress
+recruit_character = xiuhcoatl_cualli
+recruit_character = necalli_eztli
+
