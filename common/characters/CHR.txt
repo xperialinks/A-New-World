@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Carabí Rayen
+carabirayen = {
+	name = carabirayen
+	portraits = {
+		civilian = {
+			#Custom image for Carabí Rayen
+			large = "/gfx/leaders/CHR/XTrxPQMB-10233.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Guidaí Adeltú
+guidaiadeltu = {
+	name = guidaiadeltu
+	portraits = {
+		civilian = {
+			#Custom image for Guidaí Adeltú
+			large = "/gfx/leaders/CHR/ApsSwzYj-9520.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Adeltú Sayen
+adeltusayen = {
+	name = adeltusayen
+	portraits = {
+		civilian = {
+			#Custom image for Adeltú Sayen
+			large = "/gfx/leaders/CHR/jIagPMqp-10100.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Aucaman Calfuray
+aucaman_calfuray = {
+	name = aucaman_calfuray
+	portraits = {
+		civilian = {
+			#Custom image for Aucaman Calfuray
+			large = "/gfx/leaders/CHR/RfpCAXrP-9913.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

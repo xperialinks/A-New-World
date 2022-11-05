@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Matoskah Mato
+matoskah_mato = {
+	name = matoskah_mato
+	portraits = {
+		civilian = {
+			#Custom image for Matoskah Mato
+			large = "/gfx/leaders/SIO/lhOvzcPt-10112.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Akecheta Ishtasapa
+akecheta_ishtasapa = {
+	name = akecheta_ishtasapa
+	portraits = {
+		civilian = {
+			#Custom image for Akecheta Ishtasapa
+			large = "/gfx/leaders/SIO/RZWuyqBh-9661.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Koda Kohana
+koda_kohana = {
+	name = koda_kohana
+	portraits = {
+		civilian = {
+			#Custom image for Koda Kohana
+			large = "/gfx/leaders/SIO/aXYsCUGy-9639.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Enapay Howahkan
+enapay_howahkan = {
+	name = enapay_howahkan
+	portraits = {
+		civilian = {
+			#Custom image for Enapay Howahkan
+			large = "/gfx/leaders/SIO/yDVTmIej-9923.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+}

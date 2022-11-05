@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Hayuyex Mayoracan
+hayuyex_mayoracan = {
+	name = hayuyex_mayoracan
+	portraits = {
+		civilian = {
+			#Custom image for Hayuyex Mayoracan
+			large = "/gfx/leaders/TAI/fqgzTXVU-10178.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Yahureybo Quiaguex
+yahureybo_quiaguex = {
+	name = yahureybo_quiaguex
+	portraits = {
+		civilian = {
+			#Custom image for Yahureybo Quiaguex
+			large = "/gfx/leaders/TAI/mQsNguxM-10216.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Alnaoanex Cicuyabay
+alnaoanex_cicuyabay = {
+	name = alnaoanex_cicuyabay
+	portraits = {
+		civilian = {
+			#Custom image for Alnaoanex Cicuyabay
+			large = "/gfx/leaders/TAI/YLHynXoa-9906.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Agüeybaná V 
+agueybanav = {
+	name = agueybanav
+	portraits = {
+		civilian = {
+			#Custom image for Agüeybaná V 
+			large = "/gfx/leaders/TAI/UNGjvmqQ-9785.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

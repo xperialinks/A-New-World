@@ -2,7 +2,7 @@
 capital = 1
 set_research_slots = 3
 set_stability = 0.5
-set_war_support = 0.5
+set_war_support = 0.7
 set_convoys = 0
 
 
@@ -19,16 +19,20 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.11.25"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 10
+	fascism = 75
+	communism = 5
+	neutrality = 10
 }
 
+recruit_character = aucaman_calfuray
+recruit_character = adeltusayen
+recruit_character = guidaiadeltu
+recruit_character = carabirayen
 

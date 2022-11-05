@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Se'ułku VII
+seulkuvii = {
+	name = seulkuvii
+	portraits = {
+		civilian = {
+			#Custom image for Se'ułku VII
+			large = "/gfx/leaders/SAL/TMAiNrxI-10001.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Skaltamiax Mos
+skaltamiax_mos = {
+	name = skaltamiax_mos
+	portraits = {
+		civilian = {
+			#Custom image for Skaltamiax Mos
+			large = "/gfx/leaders/SAL/mfidplgW-10024.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Spukani Skaltamiax
+spukani_skaltamiax = {
+	name = spukani_skaltamiax
+	portraits = {
+		civilian = {
+			#Custom image for Spukani Skaltamiax
+			large = "/gfx/leaders/SAL/SbjUFyfY-9531.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Saka'am Eseł
+sakaamesel = {
+	name = sakaamesel
+	portraits = {
+		civilian = {
+			#Custom image for Saka'am Eseł
+			large = "/gfx/leaders/SAL/RqdEfjPm-10142.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

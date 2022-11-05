@@ -1,0 +1,38 @@
+﻿oob = "IRO_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.9
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.4.11"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	fascism = 90
+	communism = 2
+	neutrality = 3
+}
+
+recruit_character = kanatase_okwaho
+recruit_character = sakohserase
+recruit_character = ahyouwaighsatenati
+recruit_character = sosetekaronhioken
+

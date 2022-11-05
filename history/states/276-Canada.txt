@@ -13,6 +13,7 @@ state = {
 		}
 		add_core_of = CAN
 		add_core_of = CRE
+		add_core_of = IRO
 		victory_points = {
 			3778 20 
 		}

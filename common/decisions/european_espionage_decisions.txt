@@ -1,0 +1,11 @@
+european_espionage = {
+	fabricate_army_experience = {
+		cost = 1
+		fire_only_once = yes
+		complete_effect = {
+			army_experience = 100
+
+
+		}
+	}
+}

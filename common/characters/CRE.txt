@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Küpeyakwüskonam Papewes
+kupeyakwuskonampapewes = {
+	name = kupeyakwuskonampapewes
+	portraits = {
+		civilian = {
+			#Custom image for Küpeyakwüskonam Papewes
+			large = "/gfx/leaders/CRE/ToMpvwHR-10108.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Pihew Kamihkosit
+pihew_kamihkosit = {
+	name = pihew_kamihkosit
+	portraits = {
+		civilian = {
+			#Custom image for Pihew Kamihkosit
+			large = "/gfx/leaders/CRE/TbBnaEiS-10009.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Assiwiyin Kahkewistahaw
+assiwiyin_kahkewistahaw = {
+	name = assiwiyin_kahkewistahaw
+	portraits = {
+		civilian = {
+			#Custom image for Assiwiyin Kahkewistahaw
+			large = "/gfx/leaders/CRE/TPcYERMh-9541.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Maskwa Kisikawasan
+maskwa_kisikawasan = {
+	name = maskwa_kisikawasan
+	portraits = {
+		civilian = {
+			#Custom image for Maskwa Kisikawasan
+			large = "/gfx/leaders/CRE/JsnoTGgX-10182.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

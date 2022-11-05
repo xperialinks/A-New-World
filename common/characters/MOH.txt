@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Sho’enrí:se Tehwehron
+shoenrisetehwehron = {
+	name = shoenrisetehwehron
+	portraits = {
+		civilian = {
+			#Custom image for Sho’enrí:se Tehwehron
+			large = "/gfx/leaders/MOH/wOMJvZRI-9804.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Shawátis Rohahes
+shawatisrohahes = {
+	name = shawatisrohahes
+	portraits = {
+		civilian = {
+			#Custom image for Shawátis Rohahes
+			large = "/gfx/leaders/MOH/LDzKrHoX-9947.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Wíshe Wahiake:ron 
+wishewahiakeron = {
+	name = wishewahiakeron
+	portraits = {
+		civilian = {
+			#Custom image for Wíshe Wahiake:ron 
+			large = "/gfx/leaders/MOH/lAWqDxVI-10126.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Tá:wit Skahonhi:io
+tawitskahonhiio = {
+	name = tawitskahonhiio
+	portraits = {
+		civilian = {
+			#Custom image for Tá:wit Skahonhi:io
+			large = "/gfx/leaders/MOH/CRkcPTvD-9563.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anti_revisionism
+		traits = {  }
+	}
+}
+}

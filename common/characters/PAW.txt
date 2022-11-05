@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Walter Echo-Hawk
+walter_echohawk = {
+	name = walter_echohawk
+	portraits = {
+		civilian = {
+			#Custom image for Walter Echo-Hawk
+			large = "/gfx/leaders/PAW/RaYEsdLy-121919.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Chief's Parliament
+chiefsparliament = {
+	name = chiefsparliament
+	portraits = {
+		civilian = {
+			#Custom image for Chief's Parliament
+			large = "/gfx/leaders/PAW/kVKIHFje-121926.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = {  }
+	}
+}
+
+#Create country leader - Lester Moon Eagle
+lester_moon_eagle = {
+	name = lester_moon_eagle
+	portraits = {
+		civilian = {
+			#Custom image for Lester Moon Eagle
+			large = "/gfx/leaders/PAW/PktYBfDH-10157.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kuruk Lesharo
+kuruk_lesharo = {
+	name = kuruk_lesharo
+	portraits = {
+		civilian = {
+			#Custom image for Kuruk Lesharo
+			large = "/gfx/leaders/PAW/sKZGokzX-121918.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

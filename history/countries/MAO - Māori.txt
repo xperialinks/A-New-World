@@ -1,17 +1,13 @@
 ﻿oob = "MAO_1936"
 capital = 1
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_research_slots = 2
+set_stability = 0.9
+set_war_support = 0.1
 set_convoys = 0
 
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
-	volunteer_only
+	disarmed_nation
 	civilian_economy
 }
 
@@ -25,10 +21,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 65
+	fascism = 10
+	communism = 10
+	neutrality = 15
 }
 
+recruit_character = aata_hohepa
+recruit_character = huatare_henare
+recruit_character = hunapo_ihaka
+recruit_character = hehu_kai
 

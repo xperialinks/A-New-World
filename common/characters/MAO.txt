@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Hehu Kai
+hehu_kai = {
+	name = hehu_kai
+	portraits = {
+		civilian = {
+			#Custom image for Hehu Kai
+			large = "/gfx/leaders/MAO/VOsmtKUI-9518.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Hunapo Ihaka
+hunapo_ihaka = {
+	name = hunapo_ihaka
+	portraits = {
+		civilian = {
+			#Custom image for Hunapo Ihaka
+			large = "/gfx/leaders/MAO/pvsjTwMH-9988.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Huatare Henare
+huatare_henare = {
+	name = huatare_henare
+	portraits = {
+		civilian = {
+			#Custom image for Huatare Henare
+			large = "/gfx/leaders/MAO/nGQMYoUq-9718.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = {  }
+	}
+}
+
+#Create country leader - Aata Hohepa
+aata_hohepa = {
+	name = aata_hohepa
+	portraits = {
+		civilian = {
+			#Custom image for Aata Hohepa
+			large = "/gfx/leaders/MAO/XJWCnDKy-10138.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

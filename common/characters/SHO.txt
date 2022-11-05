@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Alvin S. Marques
+alvin_s_marques = {
+	name = alvin_s_marques
+	portraits = {
+		civilian = {
+			#Custom image for Alvin S. Marques
+			large = "/gfx/leaders/SHO/twcTBvyK-9493.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = falangism
+		traits = {  }
+	}
+}
+
+#Create country leader - George Valdez
+george_valdez = {
+	name = george_valdez
+	portraits = {
+		civilian = {
+			#Custom image for George Valdez
+			large = "/gfx/leaders/SHO/vnQrVLGX-121921.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Barry Stark
+barry_stark = {
+	name = barry_stark
+	portraits = {
+		civilian = {
+			#Custom image for Barry Stark
+			large = "/gfx/leaders/SHO/sReDFUHM-10243.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Dan Watts
+dan_watts = {
+	name = dan_watts
+	portraits = {
+		civilian = {
+			#Custom image for Dan Watts
+			large = "/gfx/leaders/SHO/gDINefcM-10173.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+}

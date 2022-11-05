@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Puca Cari
+puca_cari = {
+	name = puca_cari
+	portraits = {
+		civilian = {
+			#Custom image for Puca Cari
+			large = "/gfx/leaders/QUI/YOwMgHFe-10180.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Quilla Inti
+quilla_inti = {
+	name = quilla_inti
+	portraits = {
+		civilian = {
+			#Custom image for Quilla Inti
+			large = "/gfx/leaders/QUI/OsTQGaqR-10158.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = moderatism
+		traits = {  }
+	}
+}
+
+#Create country leader - Allcu Yurag
+allcu_yurag = {
+	name = allcu_yurag
+	portraits = {
+		civilian = {
+			#Custom image for Allcu Yurag
+			large = "/gfx/leaders/QUI/lFdMTkBz-9499.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Citizen's Congress
+citizenscongress = {
+	name = citizenscongress
+	portraits = {
+		civilian = {
+			#Custom image for Citizen's Congress
+			large = "/gfx/leaders/QUI/HYmOtxjA-9641.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

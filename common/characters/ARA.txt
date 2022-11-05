@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Kathi Aba
+kathi_aba = {
+	name = kathi_aba
+	portraits = {
+		civilian = {
+			#Custom image for Kathi Aba
+			large = "/gfx/leaders/ARA/NUzAKdMq-10247.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Péero Bithi
+peerobithi = {
+	name = peerobithi
+	portraits = {
+		civilian = {
+			#Custom image for Péero Bithi
+			large = "/gfx/leaders/ARA/bcZfBPTS-121963.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Vuniabu Kabyn
+vuniabu_kabyn = {
+	name = vuniabu_kabyn
+	portraits = {
+		civilian = {
+			#Custom image for Vuniabu Kabyn
+			large = "/gfx/leaders/ARA/yNImWZOQ-10313.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Hadali Biama
+hadali_biama = {
+	name = hadali_biama
+	portraits = {
+		civilian = {
+			#Custom image for Hadali Biama
+			large = "/gfx/leaders/ARA/EKgwIxBT-9864.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

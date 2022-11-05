@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "a_new_world_desc"
 		date = 1936.1.1.12
 	picture = "a_new_world-1"
-		default_country = "GER"
+		default_country = "AZT"
 		default = yes
 		"AZT" = {
 			history = "a_new_world_AZT"
@@ -14,9 +14,29 @@ bookmarks = {
 			history = "a_new_world_MAY"
 			ideology = fascism
 		}
-		"AMY" = {
-			history = "a_new_world_AMY"
-			ideology = neutrality
+		"AMZ" = {
+			history = "a_new_world_AMZ"
+			ideology = democratic
+		}
+		"INU" = {
+			history = "a_new_world_INU"
+			ideology = democratic
+		}
+		"MAP" = {
+			history = "a_new_world_MAP"
+			ideology = fascism
+		}
+		"TAI" = {
+			history = "a_new_world_TAI"
+			ideology = democratic
+		}
+		"BLA" = {
+			history = "a_new_world_BLA"
+			ideology = fascism
+		}
+		"PAW" = {
+			history = "a_new_world_PAW"
+			ideology = democratic
 		}
 	}
 }

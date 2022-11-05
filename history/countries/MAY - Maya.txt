@@ -1,8 +1,8 @@
 ﻿oob = "MAY_1936"
 capital = 1
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_research_slots = 4
+set_stability = 0.9
+set_war_support = 0.9
 set_convoys = 0
 
 
@@ -19,16 +19,20 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.3.6"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 5
+	fascism = 65
+	communism = 20
+	neutrality = 10
 }
 
+recruit_character = bembe_izamna
+recruit_character = yaxkin_xpiayoc
+recruit_character = smoke_kinich
+recruit_character = apoxpalon_tadeas
 

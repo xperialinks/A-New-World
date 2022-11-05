@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Katatau Pokume
+katatau_pokume = {
+	name = katatau_pokume
+	portraits = {
+		civilian = {
+			#Custom image for Katatau Pokume
+			large = "/gfx/leaders/POT/alvCjbPu-9917.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Dzižuasu Oka
+dzizuasuoka = {
+	name = dzizuasuoka
+	portraits = {
+		civilian = {
+			#Custom image for Dzižuasu Oka
+			large = "/gfx/leaders/POT/FEhHORnc-9814.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Masuñi Mařiskho
+masunimariskho = {
+	name = masunimariskho
+	portraits = {
+		civilian = {
+			#Custom image for Masuñi Mařiskho
+			large = "/gfx/leaders/POT/WxvAQdmi-9534.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Numbu III
+numbu_iii = {
+	name = numbu_iii
+	portraits = {
+		civilian = {
+			#Custom image for Numbu III
+			large = "/gfx/leaders/POT/DtJqPQXU-9969.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

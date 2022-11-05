@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Yenu Tuna
+yenu_tuna = {
+	name = yenu_tuna
+	portraits = {
+		civilian = {
+			#Custom image for Yenu Tuna
+			large = "/gfx/leaders/AMZ/QnBYoPya-10193.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Púju Entsá
+pujuentsa = {
+	name = pujuentsa
+	portraits = {
+		civilian = {
+			#Custom image for Púju Entsá
+			large = "/gfx/leaders/AMZ/kstTxDim-9952.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Khi Chinu
+khi_chinu = {
+	name = khi_chinu
+	portraits = {
+		civilian = {
+			#Custom image for Khi Chinu
+			large = "/gfx/leaders/AMZ/rkRHDEpV-9490.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Vari Waka
+vari_waka = {
+	name = vari_waka
+	portraits = {
+		civilian = {
+			#Custom image for Vari Waka
+			large = "/gfx/leaders/AMZ/DOTBbyqK-9869.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}

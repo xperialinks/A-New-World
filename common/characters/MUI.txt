@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Unit of Communists
+unit_of_communists = {
+	name = unit_of_communists
+	portraits = {
+		civilian = {
+			#Custom image for Unit of Communists
+			large = "/gfx/leaders/MUI/jMbSEqDJ-121957.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Chia Sua
+chia_sua = {
+	name = chia_sua
+	portraits = {
+		civilian = {
+			#Custom image for Chia Sua
+			large = "/gfx/leaders/MUI/liLUmYuy-10142.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Parliament of Democracy
+parliament_of_democracy = {
+	name = parliament_of_democracy
+	portraits = {
+		civilian = {
+			#Custom image for Parliament of Democracy
+			large = "/gfx/leaders/MUI/SJuftgdB-121926.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Anarchist Protection Council
+anarchist_protection_council = {
+	name = anarchist_protection_council
+	portraits = {
+		civilian = {
+			#Custom image for Anarchist Protection Council
+			large = "/gfx/leaders/MUI/lJoKCRNk-10211.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = {  }
+	}
+}
+}

@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Inde Kuas
+inde_kuas = {
+	name = inde_kuas
+	portraits = {
+		civilian = {
+			#Custom image for Inde Kuas
+			large = "/gfx/leaders/CAL/qBfQpTsg-10039.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Piar Pegrané
+piarpegrane = {
+	name = piarpegrane
+	portraits = {
+		civilian = {
+			#Custom image for Piar Pegrané
+			large = "/gfx/leaders/CAL/znwmGusF-121960.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kuakilla Unua
+kuakilla_unua = {
+	name = kuakilla_unua
+	portraits = {
+		civilian = {
+			#Custom image for Kuakilla Unua
+			large = "/gfx/leaders/CAL/OtmQjXkz-121962.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kuesané Pi
+kuesanepi = {
+	name = kuesanepi
+	portraits = {
+		civilian = {
+			#Custom image for Kuesané Pi
+			large = "/gfx/leaders/CAL/GMDplVjm-9598.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = centrism
+		traits = {  }
+	}
+}
+}

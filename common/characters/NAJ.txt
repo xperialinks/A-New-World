@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Nayati Kosumi
+nayati_kosumi = {
+	name = nayati_kosumi
+	portraits = {
+		civilian = {
+			#Custom image for Nayati Kosumi
+			large = "/gfx/leaders/NAJ/kJALECNU-9843.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Elu Dasan
+elu_dasan = {
+	name = elu_dasan
+	portraits = {
+		civilian = {
+			#Custom image for Elu Dasan
+			large = "/gfx/leaders/NAJ/kvDzcIKU-9683.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Jacy Hania
+jacy_hania = {
+	name = jacy_hania
+	portraits = {
+		civilian = {
+			#Custom image for Jacy Hania
+			large = "/gfx/leaders/NAJ/qIGmOpRs-9746.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Chayton III       
+chaytoniii = {
+	name = chaytoniii
+	portraits = {
+		civilian = {
+			#Custom image for Chayton III       
+			large = "/gfx/leaders/NAJ/CboPBHQd-9744.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

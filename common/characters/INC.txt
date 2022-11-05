@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Catequil Tupac
+catequil_tupac = {
+	name = catequil_tupac
+	portraits = {
+		civilian = {
+			#Custom image for Catequil Tupac
+			large = "/gfx/leaders/INC/QpgkrHNC-10064.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Apocatequil Apichu
+apocatequil_apichu = {
+	name = apocatequil_apichu
+	portraits = {
+		civilian = {
+			#Custom image for Apocatequil Apichu
+			large = "/gfx/leaders/INC/IPwxcqgR-121920.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Atoc Ekkeko
+atoc_ekkeko = {
+	name = atoc_ekkeko
+	portraits = {
+		civilian = {
+			#Custom image for Atoc Ekkeko
+			large = "/gfx/leaders/INC/YEBicXKR-9630.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Epunamun Nyunyuma
+epunamun_nyunyuma = {
+	name = epunamun_nyunyuma
+	portraits = {
+		civilian = {
+			#Custom image for Epunamun Nyunyuma
+			large = "/gfx/leaders/INC/zNrXZQDR-121938.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

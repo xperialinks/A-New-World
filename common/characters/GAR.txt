@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Tóda Iruni
+todairuni = {
+	name = todairuni
+	portraits = {
+		civilian = {
+			#Custom image for Tóda Iruni
+			large = "/gfx/leaders/GAR/QAVgztoE-121953.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Avavé Peteĩ
+avavepetei = {
+	name = avavepetei
+	portraits = {
+		civilian = {
+			#Custom image for Avavé Peteĩ
+			large = "/gfx/leaders/GAR/FyWXInAa-10141.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Maimãva Mokõi
+maimavamokoi = {
+	name = maimavamokoi
+	portraits = {
+		civilian = {
+			#Custom image for Maimãva Mokõi
+			large = "/gfx/leaders/GAR/ESwpuKIc-9808.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Moivé IV
+moiveiv = {
+	name = moiveiv
+	portraits = {
+		civilian = {
+			#Custom image for Moivé IV
+			large = "/gfx/leaders/GAR/SpvjTorx-9948.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

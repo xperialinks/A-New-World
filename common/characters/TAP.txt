@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - A-kang Mokoĩ
+akangmokoi = {
+	name = akangmokoi
+	portraits = {
+		civilian = {
+			#Custom image for A-kang Mokoĩ
+			large = "/gfx/leaders/TAP/zpZlNRka-10289.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = {  }
+	}
+}
+
+#Create country leader - Nambi Mbohapüi
+nambimbohapui = {
+	name = nambimbohapui
+	portraits = {
+		civilian = {
+			#Custom image for Nambi Mbohapüi
+			large = "/gfx/leaders/TAP/YZVtcFSJ-9484.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = rexism
+		traits = {  }
+	}
+}
+
+#Create country leader - Pó Rakã
+poraka = {
+	name = poraka
+	portraits = {
+		civilian = {
+			#Custom image for Pó Rakã
+			large = "/gfx/leaders/TAP/dImcBvUa-10099.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Táña Peteĩ
+tanapetei = {
+	name = tanapetei
+	portraits = {
+		civilian = {
+			#Custom image for Táña Peteĩ
+			large = "/gfx/leaders/TAP/KtJhvMYX-10061.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

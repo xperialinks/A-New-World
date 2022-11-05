@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Ohiyesa Canowicakte
+ohiyesa_canowicakte = {
+	name = ohiyesa_canowicakte
+	portraits = {
+		civilian = {
+			#Custom image for Ohiyesa Canowicakte
+			large = "/gfx/leaders/LAK/LEaNmVxl-10038.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Matoskah Tashunka
+matoskah_tashunka = {
+	name = matoskah_tashunka
+	portraits = {
+		civilian = {
+			#Custom image for Matoskah Tashunka
+			large = "/gfx/leaders/LAK/ieDNUmnM-9901.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Dakotah Hanska
+dakotah_hanska = {
+	name = dakotah_hanska
+	portraits = {
+		civilian = {
+			#Custom image for Dakotah Hanska
+			large = "/gfx/leaders/LAK/azSAPNLp-9664.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Tahatan I
+tahatan_i = {
+	name = tahatan_i
+	portraits = {
+		civilian = {
+			#Custom image for Tahatan I
+			large = "/gfx/leaders/LAK/hCqVkuSO-9648.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

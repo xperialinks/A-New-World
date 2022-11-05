@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Môkst Ixt
+mokstixt = {
+	name = mokstixt
+	portraits = {
+		civilian = {
+			#Custom image for Môkst Ixt
+			large = "/gfx/leaders/CHN/cFjMhmlN-9454.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = rexism
+		traits = {  }
+	}
+}
+
+#Create country leader - Lakt Łun
+laktlun = {
+	name = laktlun
+	portraits = {
+		civilian = {
+			#Custom image for Lakt Łun
+			large = "/gfx/leaders/CHN/iXcEQADC-9542.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+
+#Create country leader - O'ołax Łkwalipx
+oolaxlkwalipx = {
+	name = oolaxlkwalipx
+	portraits = {
+		civilian = {
+			#Custom image for O'ołax Łkwalipx
+			large = "/gfx/leaders/CHN/MOUszDuG-121938.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Łtsuq II
+ltsuqii = {
+	name = ltsuqii
+	portraits = {
+		civilian = {
+			#Custom image for Łtsuq II
+			large = "/gfx/leaders/CHN/HurFbCyE-9453.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

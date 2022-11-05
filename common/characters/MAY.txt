@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Apoxpalon Tadeas
+apoxpalon_tadeas = {
+	name = apoxpalon_tadeas
+	portraits = {
+		civilian = {
+			#Custom image for Apoxpalon Tadeas
+			large = "/gfx/leaders/MAY/zkjymerE-9790.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+
+#Create country leader - Smoke Kinich
+smoke_kinich = {
+	name = smoke_kinich
+	portraits = {
+		civilian = {
+			#Custom image for Smoke Kinich
+			large = "/gfx/leaders/MAY/qBgpSJmu-10084.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Yaxkin Xpiayoc
+yaxkin_xpiayoc = {
+	name = yaxkin_xpiayoc
+	portraits = {
+		civilian = {
+			#Custom image for Yaxkin Xpiayoc
+			large = "/gfx/leaders/MAY/jLukpfZy-9557.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Bembe Izamna
+bembe_izamna = {
+	name = bembe_izamna
+	portraits = {
+		civilian = {
+			#Custom image for Bembe Izamna
+			large = "/gfx/leaders/MAY/THatmdpi-9481.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

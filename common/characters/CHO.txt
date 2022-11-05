@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Abit VI
+abit_vi = {
+	name = abit_vi
+	portraits = {
+		civilian = {
+			#Custom image for Abit VI
+			large = "/gfx/leaders/CHO/eAOirxQf-10109.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Falaamatabi Chashwi
+falaamatabi_chashwi = {
+	name = falaamatabi_chashwi
+	portraits = {
+		civilian = {
+			#Custom image for Falaamatabi Chashwi
+			large = "/gfx/leaders/CHO/bmzLQUKH-9743.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Tokabi Nashoba
+tokabi_nashoba = {
+	name = tokabi_nashoba
+	portraits = {
+		civilian = {
+			#Custom image for Tokabi Nashoba
+			large = "/gfx/leaders/CHO/TgDfFEVZ-9984.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Koi Shtabi
+koi_shtabi = {
+	name = koi_shtabi
+	portraits = {
+		civilian = {
+			#Custom image for Koi Shtabi
+			large = "/gfx/leaders/CHO/ATkLyOWb-9947.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+}

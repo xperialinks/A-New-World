@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Welcome
+	SpriteType = { 
+		name = "welcome-451"
+		texturefile = "gfx/interface/events/welcome-event/welcome-451.dds"
+	}
+
+ 
+ }

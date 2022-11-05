@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Kai Kealohilani
+kai_kealohilani = {
+	name = kai_kealohilani
+	portraits = {
+		civilian = {
+			#Custom image for Kai Kealohilani
+			large = "/gfx/leaders/HWI/wrQAfaCT-9733.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Alika Hanale
+alika_hanale = {
+	name = alika_hanale
+	portraits = {
+		civilian = {
+			#Custom image for Alika Hanale
+			large = "/gfx/leaders/HWI/mCgrZTWp-10279.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Akela Hikialani
+akela_hikialani = {
+	name = akela_hikialani
+	portraits = {
+		civilian = {
+			#Custom image for Akela Hikialani
+			large = "/gfx/leaders/HWI/ZxzRcMXU-10128.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Akamu Ailani
+akamu_ailani = {
+	name = akamu_ailani
+	portraits = {
+		civilian = {
+			#Custom image for Akamu Ailani
+			large = "/gfx/leaders/HWI/iCSPwMsf-10079.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

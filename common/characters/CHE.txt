@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Waya Sequoyah
+waya_sequoyah = {
+	name = waya_sequoyah
+	portraits = {
+		civilian = {
+			#Custom image for Waya Sequoyah
+			large = "/gfx/leaders/CHE/xcHOosEg-10248.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Wohali Yona
+wohali_yona = {
+	name = wohali_yona
+	portraits = {
+		civilian = {
+			#Custom image for Wohali Yona
+			large = "/gfx/leaders/CHE/eSsLbvpi-10201.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Adsila Galilahi
+adsila_galilahi = {
+	name = adsila_galilahi
+	portraits = {
+		civilian = {
+			#Custom image for Adsila Galilahi
+			large = "/gfx/leaders/CHE/sluAQVRG-10028.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+
+#Create country leader - Tsula Ahyoka
+tsula_ahyoka = {
+	name = tsula_ahyoka
+	portraits = {
+		civilian = {
+			#Custom image for Tsula Ahyoka
+			large = "/gfx/leaders/CHE/zJwjYBKX-10067.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = falangism
+		traits = {  }
+	}
+}
+}

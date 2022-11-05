@@ -1,8 +1,8 @@
 ﻿oob = "MUI_1936"
 capital = 1
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_research_slots = 2
+set_stability = 0.1
+set_war_support = 0.3
 set_convoys = 0
 
 
@@ -19,16 +19,20 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1935.1.27"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 5
+	fascism = 5
+	communism = 5
+	neutrality = 85
 }
 
+recruit_character = anarchist_protection_council
+recruit_character = parliament_of_democracy
+recruit_character = chia_sua
+recruit_character = unit_of_communists
 

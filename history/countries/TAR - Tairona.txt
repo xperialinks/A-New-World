@@ -1,8 +1,8 @@
 ﻿oob = "TAR_1936"
 capital = 1
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.3
+set_war_support = 0.8
 set_convoys = 0
 
 
@@ -19,16 +19,20 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1935.4.9"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 5
+	fascism = 5
+	communism = 85
+	neutrality = 5
 }
 
+recruit_character = anarchist_defence_council
+recruit_character = council_of_people
+recruit_character = niuwi_pio
+recruit_character = sasha_ni
 

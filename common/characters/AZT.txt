@@ -5,7 +5,7 @@ necalli_eztli = {
 	portraits = {
 		civilian = {
 			#Custom image for Necalli Eztli
-			large = "/gfx/leaders/AZT/oZrUxiAR-10317.dds"
+			large = "/gfx/leaders/AZT/zesUjMfu-10317.dds"
 		}
 	}
 	country_leader = {
@@ -21,7 +21,7 @@ xiuhcoatl_cualli = {
 	portraits = {
 		civilian = {
 			#Custom image for Xiuhcoatl Cualli
-			large = "/gfx/leaders/AZT/iJoEALeQ-10168.dds"
+			large = "/gfx/leaders/AZT/fprDCLYj-10168.dds"
 		}
 	}
 	country_leader = {
@@ -37,7 +37,7 @@ the_aztec_congress = {
 	portraits = {
 		civilian = {
 			#Custom image for The Aztec Congress
-			large = "/gfx/leaders/AZT/FjcqZdvB-10211.dds"
+			large = "/gfx/leaders/AZT/eWbTjZgJ-10211.dds"
 		}
 	}
 	country_leader = {
@@ -53,7 +53,7 @@ montezuma_viii = {
 	portraits = {
 		civilian = {
 			#Custom image for Montezuma VIII
-			large = "/gfx/leaders/AZT/ewHbjZhO-10208.dds"
+			large = "/gfx/leaders/AZT/HOgEjKwA-10208.dds"
 		}
 	}
 	country_leader = {

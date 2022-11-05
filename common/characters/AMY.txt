@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Cadmael Kan
+cadmael_kan = {
+	name = cadmael_kan
+	portraits = {
+		civilian = {
+			#Custom image for Cadmael Kan
+			large = "/gfx/leaders/AMY/dnRxPgOI-121916.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Jacinto Chaac
+jacinto_chaac = {
+	name = jacinto_chaac
+	portraits = {
+		civilian = {
+			#Custom image for Jacinto Chaac
+			large = "/gfx/leaders/AMY/XgJubtnG-9476.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Abund Ixpiyacoc
+abund_ixpiyacoc = {
+	name = abund_ixpiyacoc
+	portraits = {
+		civilian = {
+			#Custom image for Abund Ixpiyacoc
+			large = "/gfx/leaders/AMY/UCTazcxD-9846.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Pakal III
+pakal_iii = {
+	name = pakal_iii
+	portraits = {
+		civilian = {
+			#Custom image for Pakal III
+			large = "/gfx/leaders/AMY/lPSkMRAb-9482.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

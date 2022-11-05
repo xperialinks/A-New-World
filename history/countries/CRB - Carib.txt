@@ -1,17 +1,13 @@
 ﻿oob = "CRB_1936"
 capital = 1
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.7
+set_war_support = 0.8
 set_convoys = 0
 
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
-	volunteer_only
+	disarmed_nation
 	civilian_economy
 }
 
@@ -19,16 +15,20 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.9.9"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 5
+	fascism = 90
+	communism = 2
+	neutrality = 3
 }
 
+recruit_character = wiwiitoto
+recruit_character = wipi_siko
+recruit_character = oatokaapo
+recruit_character = topu_oko
 

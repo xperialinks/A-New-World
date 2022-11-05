@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Megedagik Anakausuen
+megedagik_anakausuen = {
+	name = megedagik_anakausuen
+	portraits = {
+		civilian = {
+			#Custom image for Megedagik Anakausuen
+			large = "/gfx/leaders/BLA/cklyoUBI-10203.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Eluwilussit Powaw
+eluwilussit_powaw = {
+	name = eluwilussit_powaw
+	portraits = {
+		civilian = {
+			#Custom image for Eluwilussit Powaw
+			large = "/gfx/leaders/BLA/CSNkGWIU-9401.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Etlelooaat Kestejoo
+etlelooaat_kestejoo = {
+	name = etlelooaat_kestejoo
+	portraits = {
+		civilian = {
+			#Custom image for Etlelooaat Kestejoo
+			large = "/gfx/leaders/BLA/pIjUzrNf-10003.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Mingan Megedagik
+mingan_megedagik = {
+	name = mingan_megedagik
+	portraits = {
+		civilian = {
+			#Custom image for Mingan Megedagik
+			large = "/gfx/leaders/BLA/jYmMJuFv-10206.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

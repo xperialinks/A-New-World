@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Amaqjuaq Cupun
+amaqjuaq_cupun = {
+	name = amaqjuaq_cupun
+	portraits = {
+		civilian = {
+			#Custom image for Amaqjuaq Cupun
+			large = "/gfx/leaders/INU/vpSJEBcW-10110.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Nanurjuk Panuk
+nanurjuk_panuk = {
+	name = nanurjuk_panuk
+	portraits = {
+		civilian = {
+			#Custom image for Nanurjuk Panuk
+			large = "/gfx/leaders/INU/xtrKRQNi-10090.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Aput Nootaikok
+aput_nootaikok = {
+	name = aput_nootaikok
+	portraits = {
+		civilian = {
+			#Custom image for Aput Nootaikok
+			large = "/gfx/leaders/INU/dLQTxFqG-10130.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Atiqtalaaq Amaruq
+atiqtalaaq_amaruq = {
+	name = atiqtalaaq_amaruq
+	portraits = {
+		civilian = {
+			#Custom image for Atiqtalaaq Amaruq
+			large = "/gfx/leaders/INU/zDZtoaRi-9469.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

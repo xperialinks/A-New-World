@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Só:se Tekaronhió:ken
+sosetekaronhioken = {
+	name = sosetekaronhioken
+	portraits = {
+		civilian = {
+			#Custom image for Só:se Tekaronhió:ken
+			large = "/gfx/leaders/IRO/dVqmILNh-10320.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Ahyouwaighs Atená:ti
+ahyouwaighsatenati = {
+	name = ahyouwaighsatenati
+	portraits = {
+		civilian = {
+			#Custom image for Ahyouwaighs Atená:ti
+			large = "/gfx/leaders/IRO/fWLhKcgp-10298.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Sa:k Ohserase
+sakohserase = {
+	name = sakohserase
+	portraits = {
+		civilian = {
+			#Custom image for Sa:k Ohserase
+			large = "/gfx/leaders/IRO/RBjZrmNq-10128.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kanatase Okwaho
+kanatase_okwaho = {
+	name = kanatase_okwaho
+	portraits = {
+		civilian = {
+			#Custom image for Kanatase Okwaho
+			large = "/gfx/leaders/IRO/VsneqOpC-9499.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Esese Nuno
+esese_nuno = {
+	name = esese_nuno
+	portraits = {
+		civilian = {
+			#Custom image for Esese Nuno
+			large = "/gfx/leaders/TUP/wCNxYJBM-10220.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Xixi Tuna
+xixi_tuna = {
+	name = xixi_tuna
+	portraits = {
+		civilian = {
+			#Custom image for Xixi Tuna
+			large = "/gfx/leaders/TUP/PJLAwidy-10237.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Uchiti Wari
+uchiti_wari = {
+	name = uchiti_wari
+	portraits = {
+		civilian = {
+			#Custom image for Uchiti Wari
+			large = "/gfx/leaders/TUP/IRSjFeaB-9677.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Pexkáme Yeído
+pexkameyeido = {
+	name = pexkameyeido
+	portraits = {
+		civilian = {
+			#Custom image for Pexkáme Yeído
+			large = "/gfx/leaders/TUP/AXbtYTrU-10068.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Sgíidang Na
+sgiidangna = {
+	name = sgiidangna
+	portraits = {
+		civilian = {
+			#Custom image for Sgíidang Na
+			large = "/gfx/leaders/HAD/ieamgYMu-10165.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Juuyáay Xa
+juuyaayxa = {
+	name = juuyaayxa
+	portraits = {
+		civilian = {
+			#Custom image for Juuyáay Xa
+			large = "/gfx/leaders/HAD/jPgObuCt-9793.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Táagang Kuntlutl
+taagangkuntlutl = {
+	name = taagangkuntlutl
+	portraits = {
+		civilian = {
+			#Custom image for Táagang Kuntlutl
+			large = "/gfx/leaders/HAD/MWZcevKk-9596.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kúng Gántl
+kunggantl = {
+	name = kunggantl
+	portraits = {
+		civilian = {
+			#Custom image for Kúng Gántl
+			large = "/gfx/leaders/HAD/slmULPZM-10133.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

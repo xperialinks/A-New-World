@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Atowns Wāhk
+atownswahk = {
+	name = atownswahk
+	portraits = {
+		civilian = {
+			#Custom image for Atowns Wāhk
+			large = "/gfx/leaders/POW/HthlVqCv-10199.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Askoiwān Matassen
+askoiwanmatassen = {
+	name = askoiwanmatassen
+	portraits = {
+		civilian = {
+			#Custom image for Askoiwān Matassen
+			large = "/gfx/leaders/POW/BfdMTOkj-121927.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Esepan Mossaskoēss
+esepanmossaskoess = {
+	name = esepanmossaskoess
+	portraits = {
+		civilian = {
+			#Custom image for Esepan Mossaskoēss
+			large = "/gfx/leaders/POW/iwANxTvg-10072.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kiysowss IX
+kiysowss_ix = {
+	name = kiysowss_ix
+	portraits = {
+		civilian = {
+			#Custom image for Kiysowss IX
+			large = "/gfx/leaders/POW/dvZhAFUW-10085.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

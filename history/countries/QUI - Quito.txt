@@ -1,8 +1,8 @@
 ﻿oob = "QUI_1936"
 capital = 1
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.8
+set_war_support = 0.6
 set_convoys = 0
 
 
@@ -25,10 +25,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 80
+	fascism = 15
+	communism = 1
+	neutrality = 4
 }
 
+recruit_character = citizenscongress
+recruit_character = allcu_yurag
+recruit_character = quilla_inti
+recruit_character = puca_cari
 

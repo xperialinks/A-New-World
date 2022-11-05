@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Sasha Ni
+sasha_ni = {
+	name = sasha_ni
+	portraits = {
+		civilian = {
+			#Custom image for Sasha Ni
+			large = "/gfx/leaders/TAR/CUZGwYmj-9619.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Niuwi Pio
+niuwi_pio = {
+	name = niuwi_pio
+	portraits = {
+		civilian = {
+			#Custom image for Niuwi Pio
+			large = "/gfx/leaders/TAR/AoKsFlPD-10139.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Council of People
+council_of_people = {
+	name = council_of_people
+	portraits = {
+		civilian = {
+			#Custom image for Council of People
+			large = "/gfx/leaders/TAR/RpXHDcyq-9641.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create country leader - Anarchist Defence Council
+anarchist_defence_council = {
+	name = anarchist_defence_council
+	portraits = {
+		civilian = {
+			#Custom image for Anarchist Defence Council
+			large = "/gfx/leaders/TAR/oQGuamgx-10211.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchist_communism
+		traits = {  }
+	}
+}
+}

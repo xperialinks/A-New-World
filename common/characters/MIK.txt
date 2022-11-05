@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Tepkunset Maqtewék
+tepkunsetmaqtewek = {
+	name = tepkunsetmaqtewek
+	portraits = {
+		civilian = {
+			#Custom image for Tepkunset Maqtewék
+			large = "/gfx/leaders/MIK/KBdjDMCa-10048.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Anarchist Council
+anarchist_council = {
+	name = anarchist_council
+	portraits = {
+		civilian = {
+			#Custom image for Anarchist Council
+			large = "/gfx/leaders/MIK/pUsxmuXz-10211.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = {  }
+	}
+}
+
+#Create country leader - Samqwan Mekwék
+samqwanmekwek = {
+	name = samqwanmekwek
+	portraits = {
+		civilian = {
+			#Custom image for Samqwan Mekwék
+			large = "/gfx/leaders/MIK/wicKRvjL-10238.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Nákúset Wapék
+nakusetwapek = {
+	name = nakusetwapek
+	portraits = {
+		civilian = {
+			#Custom image for Nákúset Wapék
+			large = "/gfx/leaders/MIK/OEqfYAcj-9717.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+}

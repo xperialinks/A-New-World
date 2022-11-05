@@ -1,8 +1,8 @@
 ﻿oob = "INU_1936"
 capital = 1
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_research_slots = 4
+set_stability = 0.7
+set_war_support = 0.1
 set_convoys = 0
 
 
@@ -25,10 +25,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 85
+	fascism = 5
+	communism = 5
+	neutrality = 5
 }
 
+recruit_character = atiqtalaaq_amaruq
+recruit_character = aput_nootaikok
+recruit_character = nanurjuk_panuk
+recruit_character = amaqjuaq_cupun
 

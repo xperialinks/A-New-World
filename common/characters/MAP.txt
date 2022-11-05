@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Newen Küde
+newenkude = {
+	name = newenkude
+	portraits = {
+		civilian = {
+			#Custom image for Newen Küde
+			large = "/gfx/leaders/MAP/DRuhdngf-9952.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Antinanco Liwen
+antinanco_liwen = {
+	name = antinanco_liwen
+	portraits = {
+		civilian = {
+			#Custom image for Antinanco Liwen
+			large = "/gfx/leaders/MAP/MrLoSCTm-10190.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Eluney Payne
+eluney_payne = {
+	name = eluney_payne
+	portraits = {
+		civilian = {
+			#Custom image for Eluney Payne
+			large = "/gfx/leaders/MAP/RVhNoeCU-9953.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Antinanco Nawel
+antinanco_nawel = {
+	name = antinanco_nawel
+	portraits = {
+		civilian = {
+			#Custom image for Antinanco Nawel
+			large = "/gfx/leaders/MAP/bFkjOqLR-10005.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Peta Nocona
+peta_nocona = {
+	name = peta_nocona
+	portraits = {
+		civilian = {
+			#Custom image for Peta Nocona
+			large = "/gfx/leaders/COM/EFOTVyRM-9774.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Mukwooru Tabemohats
+mukwooru_tabemohats = {
+	name = mukwooru_tabemohats
+	portraits = {
+		civilian = {
+			#Custom image for Mukwooru Tabemohats
+			large = "/gfx/leaders/COM/lzTHQhgx-9724.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Pecos Quenah-evah 
+pecos_quenahevah_ = {
+	name = pecos_quenahevah_
+	portraits = {
+		civilian = {
+			#Custom image for Pecos Quenah-evah 
+			large = "/gfx/leaders/COM/KWoYXdgb-10013.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Puhihwikwasu'u Pahayoko
+puhihwikwasuupahayoko = {
+	name = puhihwikwasuupahayoko
+	portraits = {
+		civilian = {
+			#Custom image for Puhihwikwasu'u Pahayoko
+			large = "/gfx/leaders/COM/zVQRhCrS-9512.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

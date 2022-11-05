@@ -1,1 +1,65 @@
-characters = {}
+characters = {
+#Create country leader - Topu Oko
+topu_oko = {
+	name = topu_oko
+	portraits = {
+		civilian = {
+			#Custom image for Topu Oko
+			large = "/gfx/leaders/CRB/DbLwBkHz-10033.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Ø Atoka Apo
+oatokaapo = {
+	name = oatokaapo
+	portraits = {
+		civilian = {
+			#Custom image for Ø Atoka Apo
+			large = "/gfx/leaders/CRB/rGazsYSg-10149.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Wipi Siko
+wipi_siko = {
+	name = wipi_siko
+	portraits = {
+		civilian = {
+			#Custom image for Wipi Siko
+			large = "/gfx/leaders/CRB/lVocFNjz-9522.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Wïwï Itoto
+wiwiitoto = {
+	name = wiwiitoto
+	portraits = {
+		civilian = {
+			#Custom image for Wïwï Itoto
+			large = "/gfx/leaders/CRB/rtGhmDPb-9562.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}
