@@ -18,6 +18,10 @@ bookmarks = {
 			history = "a_new_world_AMZ"
 			ideology = democratic
 		}
+		"INC" = {
+			history = "a_new_world_BLA"
+			ideology = communism
+		}
 		"INU" = {
 			history = "a_new_world_INU"
 			ideology = democratic
@@ -30,11 +34,7 @@ bookmarks = {
 			history = "a_new_world_TAI"
 			ideology = democratic
 		}
-		"BLA" = {
-			history = "a_new_world_BLA"
-			ideology = fascism
-		}
-		"PAW" = {
+        "PAW" = {
 			history = "a_new_world_PAW"
 			ideology = democratic
 		}

@@ -80,9 +80,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 20
-	fascism = 20
-	communism = 55
-	neutrality = 5
+	fascism = 5
+	communism = 20
+	neutrality = 55
 }
 
 recruit_character = sakaamesel
