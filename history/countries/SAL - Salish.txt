@@ -73,7 +73,7 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1935.6.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -81,8 +81,8 @@ set_politics = {
 set_popularities = {
 	democratic = 20
 	fascism = 5
-	communism = 20
-	neutrality = 55
+	communism = 55
+	neutrality = 20
 }
 
 recruit_character = sakaamesel
