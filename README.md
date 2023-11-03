@@ -19,8 +19,8 @@
  
 # Join the Team!
   I am happy to announce that I am opening developer applications for Perfectionist Studios.
-  - You will be able to work on ANW, or make your own project at the studios.
-  - All work is volunteer only, although you will get a share of any donations that come our way.
+  - You will be able to work on ANW, or make your own project at the studios
+  - All work is volunteer only, although you will get a share of any donations that come our way
   - Join our discord to apply ---> https://discord.gg/SJwUmfPtgt
   - Or use this direct link ---> https://forms.gle/qMJjEpPJe88xNbT27
-  - If you do not want to become a full time member, you can still submit pull requests here to help contribute.
+  - If you do not want to become a full time member, you can still submit pull requests here to help contribute
